@@ -1,41 +1,28 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: minwoo.kim
+title: minwoo.kim
+description: Tech blog
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - frontend
+  - backend
+  - devops
+  - dev
 show_hero: true
 menu:
   - title: Home
     url: /
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
-# See: https://disqus.com/
-disqus_username: disqus_username
-# Contact Form Setting
-# See: https://formspree.io/
-formspree_form_id: formspree_form_id
+email: me@minwoo.kim
 
-
-# Social Media Settings
-# Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
-
+github_username: minuchi
+# facebook_username: facebook_username
+# twitter_username: twitter_username
+# instagram_username: instagram_username
+# linkedin_username: linkedin_username
+# medium_username: medium_username
 
 # Posts Settings
 show_time_bar: true
@@ -43,15 +30,13 @@ show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
 
-
 # Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
-language: "en"
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://minwoo.kim' # the base hostname & protocol for your site
+google_analytics: 'UA-XXXXXXXX-X'
+language: 'ko'
 categories_folder: category
-sent_message_url: "/contact/message-sent/"
-
+# sent_message_url: '/contact/message-sent/'
 
 # Build settings
 markdown: kramdown
@@ -60,8 +45,8 @@ permalink: /:title/
 collections:
   authors:
     output: true
-paginate_path: "/page/:num/"
-show_get_theme_btn: true
+paginate_path: '/page/:num/'
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
@@ -71,8 +56,8 @@ paginate_content:
   collections:
     - posts
   auto: false
-  separator: "--page-break--"
-  permalink: "/:num/"
+  separator: '--page-break--'
+  permalink: '/:num/'
   seo_canonical: true
   properties:
     part:
@@ -92,17 +77,71 @@ plugins:
   - jekyll-paginate-content
 
 # Exclude my node related stuff
-exclude: [
-  'package.json',
-  'package-lock.json',
-  'src',
-  'node_modules',
-  'initpost.sh',
-  'Gemfile',
-  'Gemfile.lock',
-  'gulpfile.js',
-  'README.md'
-]
-
+exclude:
+  [
+    'package.json',
+    'package-lock.json',
+    'src',
+    'node_modules',
+    'initpost.sh',
+    'Gemfile',
+    'Gemfile.lock',
+    'gulpfile.js',
+    'README.md',
+  ]
 # Theme
-version: v3.1.1
+# version: v3.1.1
+
+defaults:
+  - scope:
+      path: '' # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true # Enable comments in posts.
+      toc: true # Display TOC column in posts.
+      # DO NOT modify the following parameter unless you are confident enough
+      # to update the code of all other post links in this project.
+      permalink: /posts/:title
+
+translations:
+  text:
+    new_post: '새로운 게시글'
+    see_also: '다른 게시글'
+    search: '검색'
+    author: '작성자'
+    share: '공유'
+    comments: 'Comments'
+  button:
+    read_now: '확인하기'
+    share_on_twitter: 'Twitter에 공유하기'
+    share_on_facebook: 'Facebook에 공유하기'
+  pagination:
+    page: 'Page'
+    of: 'of'
+    next_page: 'Next Page'
+    next_post: 'Previous Page'
+  recommendation:
+    text: '해당 게시글도 확인해보세요!'
+    back_btn: '처음으로'
+  error_404:
+    title: 'Page not found :('
+    message: "I'm sorry. We couldn't find the page you are looking for."
+    image_alt: '404 - Page not found'
+  contact:
+    title: 'Talk to me'
+    subject: 'New contact!'
+    submit_btn: 'Send'
+    placeholders:
+      name: 'Your name'
+      email: 'Your e-mail'
+      message: 'Your message'
+    errors:
+      locale: 'en'
+      empty_name: 'Name is required'
+      empty_email: 'Email is required'
+      invalid_email: 'Email is invalid'
+      empty_message: 'Message is required'
+    after_send:
+      title: 'Message sent!'
+      message: "Thank you for sending me a message. I'm going to answer ASAP."
