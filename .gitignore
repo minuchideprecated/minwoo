@@ -1,9 +1,3 @@
-.idea
+public/
 .DS_Store
-.sass-cache
-Gemfile.lock
-package-json.lock
-_site
-node_modules
-_drafts
-data/
+.hugo_build.lock

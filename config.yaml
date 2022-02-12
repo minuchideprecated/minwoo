@@ -1,0 +1,9 @@
+baseURL: https://minwoo.kim/
+disablePathToLower: true
+languageCode: ko-kr
+title: 'minwoo.kim'
+theme: PaperMod
+params:
+  env: 'production'
+  description: '개발, 클라우드 및 컨테이너 등을 정리하는 기술 블로그입니다.'
+  images: ['/assets/img/banner.png']
