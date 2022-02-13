@@ -2,6 +2,8 @@ baseURL: https://minwoo.kim/
 disablePathToLower: true
 languageCode: ko-kr
 title: 'minwoo.kim'
+googleAnalytics: 'G-NNJRMRDR0M'
+enableRobotsTXT: true
 theme: PaperMod
 params:
   env: 'production'
