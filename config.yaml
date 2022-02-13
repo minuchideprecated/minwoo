@@ -7,3 +7,6 @@ params:
   env: 'production'
   description: '개발, 클라우드 및 컨테이너 등을 정리하는 기술 블로그입니다.'
   images: ['/assets/img/banner.png']
+  analytics:
+    google:
+      SiteVerificationTag: 'CJVLd1xPaZ7Df3oS7VfZDAFaMTcdYqlO0XQkfRKQ1yk'
