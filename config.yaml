@@ -6,6 +6,15 @@ googleAnalytics: 'G-NNJRMRDR0M'
 enableRobotsTXT: true
 theme: PaperMod
 params:
+  homeInfoParams:
+    Title: 안녕하세요! 🙋
+    Content: |
+      개발, 클라우드 및 컨테이너 등을 정리하는 기술 블로그입니다.
+  socialIcons:
+    - name: 'github'
+      url: 'https://github.com/minuchi'
+    - name: 'email'
+      url: 'mailto:me@minwoo.kim'
   env: 'production'
   description: '개발, 클라우드 및 컨테이너 등을 정리하는 기술 블로그입니다.'
   images: ['/assets/img/banner.png']
