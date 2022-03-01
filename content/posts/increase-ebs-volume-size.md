@@ -88,5 +88,5 @@ sudo resize2fs /dev/nvme0n1
 
 ### 참조 링크
 
-- [볼륨 크기 조정 후 Linux 파일 시스템 확장 (한국어)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html){:target="\_blank"}
-- [Extend a Linux file system after resizing a volume (English)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html){:target="\_blank"}
+- {{< newtabref href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html" title="볼륨 크기 조정 후 Linux 파일 시스템 확장 (한국어)" >}}
+- {{< newtabref href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html" title="Extend a Linux file system after resizing a volume (English)" >}}
