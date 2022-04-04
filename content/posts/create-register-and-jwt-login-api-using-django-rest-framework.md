@@ -7,12 +7,14 @@ tags:
   - Django
   - Python
   - DRF
-title: 'Django REST framework(DRF)를 이용한 로그인 및 회원가입 API 구현 (dj-rest-auth, JWT)'
+  - JWT
+title: 'Django REST framework (DRF) JWT로 로그인 및 회원가입 API 구현 (dj-rest-auth)'
 cover:
   image: '/assets/img/drf-with-dj-rest-auth.png'
-  alt: 'Django REST framework with dj-rest-auth'
+  alt: 'Django REST framework with JWT, dj-rest-auth'
   relative: false
-ShowToc: true
+showToc: true
+ShowReadingTime: true
 ---
 
 [Django](https://www.djangoproject.com/), [Django REST framework](https://www.django-rest-framework.org/)을 이용하여, 로그인 및 회원가입을 구현해보도록 하겠습니다.
@@ -20,6 +22,8 @@ ShowToc: true
 최대한 직접 구현하지 않고, 빠르게 구현하는 데 초점을 맞추었습니다.
 
 Django와 관련된 package들을 활용하여 빠르게 로그인 서버를 구축할 수 있습니다.
+
+소스코드는 {{< newtabref href="https://github.com/minuchi/django-auth" title="GitHub" >}}에서 확인해 보실 수 있습니다.
 
 ## ⚙️ 00. 환경
 
@@ -342,7 +346,7 @@ urlpatterns = [
 ![drf-api-login-full.png](/assets/post/2022/04/04/drf/api-login-info.png)
 위 화면과 같이 정상적으로 로그인이 되고 있음을 알 수 있습니다.
 
-## 🔚 05. 결론
+## 🔚 05. 마무리
 
 Django로 프로젝트를 진행하게 된다면, 여러 패키지(라이브러리)의 도움을 받아 빠르게 API를 구현할 수 있습니다. 하지만 다른 사람이 구현해준 것은 Custom이 힘들다는 단점이 있습니다. 모든 프레임워크, 라이브러리는 취향 또는 필요에 맞게 잘 사용하시면 됩니다.
 
