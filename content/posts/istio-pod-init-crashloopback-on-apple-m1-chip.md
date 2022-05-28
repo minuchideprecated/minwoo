@@ -6,7 +6,7 @@ date: 2022-05-28T03:30:00Z
 tags:
   - Kubernetes
   - k8s
-  - istio
+  - Istio
 title: 'Istio Pod Init:CrashLoopBackOff 에러 (Apple M1 Chip, ARM CPU)'
 cover:
   image: '/assets/img/istio.png'
