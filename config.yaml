@@ -21,3 +21,4 @@ params:
   analytics:
     google:
       SiteVerificationTag: 'CJVLd1xPaZ7Df3oS7VfZDAFaMTcdYqlO0XQkfRKQ1yk'
+  comments: true
