@@ -29,7 +29,7 @@ hugo --gc --minify # ./scripts/build.sh
 Font Family: Monaco  
 Font Color: #ffffff  
 Background Color: #343a40  
-Link: https://banner.godori.dev/
+Link: https://favicon.io/favicon-generator/
 
 ### `/assets/img/banner.png` (Open Graph)
 
@@ -37,7 +37,7 @@ Font Family: McLaren
 Font Size: 95px  
 Font: #ffffff  
 Background: #343a40  
-Link: https://favicon.io/favicon-generator/
+Link: https://banner.godori.dev/
 
 ## 주소
 
