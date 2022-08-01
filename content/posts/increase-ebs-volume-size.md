@@ -1,7 +1,7 @@
 ---
 author: minwoo.kim
 categories:
-  - aws
+  - AWS
 date: 2021-12-21T11:33:00Z
 tags:
   - AWS

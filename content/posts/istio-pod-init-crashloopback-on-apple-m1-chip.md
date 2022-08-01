@@ -1,7 +1,8 @@
 ---
 author: minwoo.kim
 categories:
-  - aws
+  - Mac
+  - Istio
 date: 2022-05-28T03:30:00Z
 tags:
   - Kubernetes
@@ -10,7 +11,7 @@ tags:
 title: 'Istio Pod Init:CrashLoopBackOff 에러 (Apple M1 Chip, ARM CPU)'
 cover:
   image: '/assets/img/istio.png'
-  alt: 'Istio Pod Init:CrashLoopBackOff Error (Appe M1 Chip, ARM CPU)'
+  alt: 'Istio'
   relative: false
 showToc: true
 ---

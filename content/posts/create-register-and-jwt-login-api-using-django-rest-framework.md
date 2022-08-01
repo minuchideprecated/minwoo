@@ -1,7 +1,8 @@
 ---
 author: minwoo.kim
 categories:
-  - aws
+  - Python
+  - Django
 date: 2022-04-03T17:30:00Z
 tags:
   - Django

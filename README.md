@@ -24,7 +24,7 @@ hugo --gc --minify # ./scripts/build.sh
 
 ## 관련 이미지 정보
 
-### `/favicon.io`
+### `/favicon.ico`
 
 Font Family: Monaco  
 Font Color: #ffffff  
